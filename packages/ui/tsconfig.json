@@ -1,0 +1,12 @@
+{
+  "extends": "@luna/tsconfig/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext"
+  },
+  "include": ["src", "next-env.d.ts", "src/types/svg.d.ts"]
+}

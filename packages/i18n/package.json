@@ -1,0 +1,38 @@
+{
+  "name": "@luna/i18n",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "messages"
+  ],
+  "exports": {
+    "./next/request-factory": "./src/next/request-factory.ts",
+    "./next/middleware-factory": "./src/next/middleware-factory.ts",
+    "./next/routing": "./src/next/routing.ts",
+    "./next/load-messages": "./src/next/load-messages.ts",
+    "./resources": "./src/resources.ts",
+    "./config": "./src/config.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "codegen": "node scripts/generate-manifest.cjs"
+  },
+  "devDependencies": {
+    "@luna/eslint-config": "workspace:*",
+    "@luna/tsconfig": "workspace:*",
+    "@types/react": "^19.2.7",
+    "i18next": "^23.11.5",
+    "i18next-resources-to-backend": "^1.2.1",
+    "next": "16.0.8",
+    "react-i18next": "^14.1.2",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "next-intl": "^4.4.0"
+  }
+}

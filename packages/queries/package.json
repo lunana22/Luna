@@ -1,0 +1,44 @@
+{
+  "name": "@luna/queries",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --clean",
+    "dev": "tsup src/index.ts --dts --format esm,cjs --watch",
+    "typecheck": "tsc -p tsconfig.build.json --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "@luna/eslint-config": "workspace:*",
+    "@luna/tsconfig": "workspace:*",
+    "@luna/types": "workspace:*",
+    "@luna/utils": "workspace:*",
+    "@luna/api": "workspace:*",
+    "@luna/stores": "workspace:*",
+    "@luna/i18n": "workspace:*",
+    "tsup": "^8",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "react": "*",
+    "react-dom": ">=18",
+    "@types/js-cookie": "^3.0.6",
+    "js-cookie": "^3.0.5"
+  }
+}

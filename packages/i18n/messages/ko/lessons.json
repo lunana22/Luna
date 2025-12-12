@@ -1,0 +1,62 @@
+{
+  "common": {
+    "mainTitle": "알림판",
+    "lessonTitle": "수업",
+    "more": "더보기"
+  },
+  "location": {
+    "online": "온라인",
+    "offline": "오프라인",
+    "preMeeting": "프리미팅",
+    "none": "위치 없음"
+  },
+  "google_meet_button": {
+    "notStarted": {
+      "label": "수업 전",
+      "description": "수업 시작 10분 전부터 활성화됩니다."
+    },
+    "inProgress": {
+      "label": "수업 입장",
+      "description": "수업 시작 10분 전부터 활성화됩니다."
+    },
+    "cancelled": {
+      "label": "수업 취소",
+      "description": "취소 된 수업입니다."
+    },
+    "finished": {
+      "label": "수업 종료",
+      "description": "종료 된 수업입니다."
+    }
+  },
+  "homework": {
+    "title": "미제출 숙제",
+    "noHomework": "숙제가 없습니다.",
+    "badge": {
+      "submitted": "숙제 제출",
+      "unsubmitted": "숙제 미제출",
+      "none": "숙제 없음"
+    }
+  },
+  "feedback": {
+    "title": "지난 수업 피드백",
+    "noFeedback": "지난 수업 피드백이 없습니다.",
+    "attitude": "태도",
+    "assignment": "숙제"
+  },
+  "contents": {
+    "title": "학습 콘텐츠",
+    "youtube": "유튜브",
+    "blog": "블로그",
+    "more": "더보기"
+  },
+  "credit": {
+    "title": "현재 보유 크레딧",
+    "description": "크레딧이 부족합니다. 수업 예약을 위해 충전해주세요.",
+    "charge": "충전하기"
+  },
+  "teacher": {
+    "today_lessons": "오늘 수업",
+    "not_started_lessons": "예정된 수업",
+    "no_lessons": "수업이 없습니다."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "tudy4",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.9",
+    "@luna/api": "workspace:*",
+    "@luna/features": "workspace:*",
+    "@luna/i18n": "workspace:*",
+    "@luna/queries": "workspace:*",
+    "@luna/stores": "workspace:*",
+    "@luna/types": "workspace:*",
+    "next": "16.0.8",
+    "next-intl": "^4.5.8",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@luna/assets": "workspace:*",
+    "@luna/design-system": "workspace:*",
+    "@luna/hooks": "workspace:*",
+    "@luna/ui": "workspace:*",
+    "@luna/utils": "workspace:*",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.8",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

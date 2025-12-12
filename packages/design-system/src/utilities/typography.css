@@ -1,0 +1,71 @@
+@utility text-display-large {
+  font-size: var(--font-size-display-large);
+  font-weight: var(--font-weight-display-large);
+  line-height: var(--line-height-display-large);
+}
+
+@utility text-display-medium {
+  font-size: var(--font-size-display-medium);
+  font-weight: var(--font-weight-display-medium);
+  line-height: var(--line-height-display-medium);
+}
+
+@utility text-display-small {
+  font-size: var(--font-size-display-small);
+  font-weight: var(--font-weight-display-small);
+  line-height: var(--line-height-display-small);
+}
+
+@utility text-heading-large {
+  font-size: var(--font-size-heading-large);
+  font-weight: var(--font-weight-heading-large);
+  line-height: var(--line-height-heading-large);
+}
+
+@utility text-heading-medium {
+  font-size: var(--font-size-heading-medium);
+  font-weight: var(--font-weight-heading-medium);
+  line-height: var(--line-height-heading-medium);
+}
+
+@utility text-heading-small {
+  font-size: var(--font-size-heading-small);
+  font-weight: var(--font-weight-heading-small);
+  line-height: var(--line-height-heading-small);
+}
+
+@utility text-body-large {
+  font-size: var(--font-size-body-large);
+  font-weight: var(--font-weight-body-large);
+  line-height: var(--line-height-body-large);
+}
+
+@utility text-body-medium {
+  font-size: var(--font-size-body-medium);
+  font-weight: var(--font-weight-body-medium);
+  line-height: var(--line-height-body-medium);
+}
+
+@utility text-body-small {
+  font-size: var(--font-size-body-small);
+  font-weight: var(--font-weight-body-small);
+  line-height: var(--line-height-body-small);
+}
+
+@utility text-label-medium {
+  font-size: var(--font-size-label-medium);
+  font-weight: var(--font-weight-label-medium);
+  line-height: var(--line-height-label-medium);
+}
+
+@utility text-label-small {
+  font-size: var(--font-size-label-small);
+  font-weight: var(--font-weight-label-small);
+  line-height: var(--line-height-label-small);
+}
+
+@utility text-label-xsmall {
+  font-size: var(--font-size-label-xsmall);
+  font-weight: var(--font-weight-label-xsmall);
+  line-height: var(--line-height-label-xsmall);
+}

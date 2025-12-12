@@ -1,0 +1,10 @@
+{
+  "common": {
+    "title": "숙제",
+    "tabs": {
+      "notSubmitted": "미제출 숙제",
+      "completed": "완료된 숙제"
+    },
+    "empty": "숙제가 없습니다."
+  }
+}

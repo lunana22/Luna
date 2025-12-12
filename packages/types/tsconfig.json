@@ -1,0 +1,15 @@
+{
+  // "extends": "@luna/tsconfig/base.json",
+  "compilerOptions": {
+    "composite": true, // 프로젝트 레퍼런스 쓰면 유지
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "tsBuildInfoFile": "dist/.tsbuildinfo"
+  },
+  "include": ["src"]
+}

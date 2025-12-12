@@ -1,0 +1,29 @@
+@theme inline {
+  /* Surface Colors */
+  --color-surface-primary: var(--bg-primary);
+  --color-surface-secondary: var(--bg-secondary);
+  --color-surface-tertiary: var(--bg-tertiary);
+
+  /* Text Colors */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-inverse: var(--text-inverse);
+
+  /* Border Colors */
+  --color-border-primary: var(--border-primary);
+  --color-border-secondary: var(--border-secondary);
+  --color-border-subtle: var(--border-subtle);
+
+  /* Study Card Specifics */
+  --color-study-gradient-from: var(--bg-study-gradient-from);
+  --color-study-gradient-to: var(--bg-study-gradient-to);
+
+  --color-study-card-tablet-front: var(--bg-study-card-tablet-front);
+  --color-text-study-card-tablet-front: var(--text-study-card-tablet-front);
+  --color-border-study-card-tablet-front: var(--border-study-card-tablet-front);
+
+  --color-study-card-tablet-back: var(--bg-study-card-tablet-back);
+  --color-text-study-card-tablet-back: var(--text-study-card-tablet-back);
+  --color-border-study-card-tablet-back: var(--border-study-card-tablet-back);
+}

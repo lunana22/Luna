@@ -1,0 +1,8 @@
+{
+  "extends": "@luna/tsconfig/base.json",
+  "compilerOptions": {
+    "types": ["i18next", "next-intl"],
+    "baseUrl": "./src"
+  },
+  "include": ["src"]
+}

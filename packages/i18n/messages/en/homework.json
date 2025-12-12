@@ -1,0 +1,10 @@
+{
+  "common": {
+    "title": "Homework",
+    "tabs": {
+      "notSubmitted": "Not Submitted",
+      "completed": "Completed"
+    },
+    "empty": "No homework found."
+  }
+}

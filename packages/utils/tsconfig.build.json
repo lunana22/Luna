@@ -1,0 +1,15 @@
+{
+  "extends": "@luna/tsconfig/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": ".",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "incremental": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@luna/types": ["../types/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

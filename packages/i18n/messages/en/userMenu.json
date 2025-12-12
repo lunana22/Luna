@@ -1,0 +1,28 @@
+{
+  "student": {
+    "role": "Student",
+    "link": {
+      "1": "Account Management",
+      "2": "Dark Mode",
+      "3": "Change Language",
+      "4": "e-Learnin Board"
+    }
+  },
+  "parent": {
+    "role": {
+      "Father": "Father",
+      "Mother": "Mother"
+    },
+    "link": {
+      "1": "Account Management",
+      "2": "Dark Mode",
+      "3": "Change Language",
+      "4": "Consultation Inquiry"
+    },
+    "studentSelect": {
+      "role": "Student",
+      "noStudent": "No student account",
+      "addStudent": "Add student account"
+    }
+  }
+}

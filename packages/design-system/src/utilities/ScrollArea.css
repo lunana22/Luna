@@ -1,0 +1,82 @@
+/* Firefox 전용 설정 */
+.custom-scroll {
+  /* 스크롤바 두께: auto | thin | none */
+  scrollbar-width: thin;
+  overflow-y: auto;
+  scrollbar-color: var(--secondary-light) var(--secondary-lighter);
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: var(--secondary-light); /* 기본 thumb 색 */
+  border-radius: 999px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-dark); /* hover 시 진하게 */
+}
+
+.custom-scroll-horizontal {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary-light) var(--secondary-lighter);
+}
+
+.custom-scroll-horizontal::-webkit-scrollbar-thumb {
+  background: var(--secondary-light); /* 기본 thumb 색 */
+  border-radius: 999px;
+}
+
+.custom-scroll-horizontal::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-dark); /* hover 시 진하게 */
+}
+
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
+.fade {
+  position: absolute;
+  pointer-events: none;
+  transition: opacity 200ms;
+}
+
+.fade-bottom {
+  bottom: 0;
+
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    var(--alpha-base0) 0%,
+    var(--alpha-base100) 100%
+  );
+}
+
+.fade-top {
+  top: 0;
+  height: 50px;
+  background: linear-gradient(
+    0deg,
+    var(--alpha-base0) 0%,
+    var(--alpha-base100) 100%
+  );
+}
+.fade-left {
+  left: 0;
+  width: 50px;
+  background: linear-gradient(
+    -90deg,
+    var(--alpha-base0) 0%,
+    var(--alpha-base100) 100%
+  );
+}
+.fade-right {
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--alpha-base0) 0%,
+    var(--alpha-base100) 100%
+  );
+}

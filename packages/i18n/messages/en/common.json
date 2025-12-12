@@ -1,0 +1,25 @@
+{
+  "sidebar": {
+    "dashboard": "Announcements",
+    "lesson": "Class",
+    "homework": "Homework",
+    "chat": "Chat",
+    "sat-boot-camp-survey": "SAT BootCamp Survey",
+    "mybook": "My Library",
+    "vocab": "Vocabulary",
+    "sat": "SAT",
+    "feedback": "Feedback",
+    "cradit": "Credit Status",
+    "reservation": "Reservation History",
+    "DailyReport": "Incomplete Daily Report",
+    "schedule-register": "Schedule Register",
+    "settlement-management": "Settlement Management",
+    "errors": {
+      "unknown": "An unknown error has occurred. Please try again."
+    },
+    "footer": {
+      "logout": "Logout",
+      "policy": "Policy"
+    }
+  }
+}

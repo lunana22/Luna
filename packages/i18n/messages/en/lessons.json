@@ -1,0 +1,62 @@
+{
+  "common": {
+    "mainTitle": "Announcements",
+    "lessonTitle": "Class",
+    "more": "More"
+  },
+  "location": {
+    "online": "Online",
+    "offline": "Offline",
+    "preMeeting": "Pre-Meeting",
+    "none": "No Location"
+  },
+  "google_meet_button": {
+    "notStarted": {
+      "label": "Not Started",
+      "description": "The button will be activated 10 minutes before the class starts."
+    },
+    "inProgress": {
+      "label": "Enter Class",
+      "description": "The button will be activated 10 minutes before the class starts."
+    },
+    "cancelled": {
+      "label": "Cancelled",
+      "description": "The class has been cancelled."
+    },
+    "finished": {
+      "label": "Finished",
+      "description": "The class has been finished."
+    }
+  },
+  "homework": {
+    "title": "Incomplete Homework",
+    "noHomework": "You don't have any unsubmitted homework.",
+    "badge": {
+      "submitted": "Submitted",
+      "unsubmitted": "Unsubmitted",
+      "none": "None"
+    }
+  },
+  "feedback": {
+    "title": "Feedback from Past Class",
+    "noFeedback": "Feedback Unavailable",
+    "attitude": "Attitude",
+    "assignment": "Assignment"
+  },
+  "contents": {
+    "title": "Learning Contents",
+    "youtube": "Youtube",
+    "blog": "Blog",
+    "more": "More"
+  },
+  "credit": {
+    "title": "Current Amount of Credits",
+    "description": "You don't have enough credits. Please charge to reserve a class.",
+    "charge": "Recharge"
+  },
+  "teacher": {
+    "today_lessons": "Today's Lessons",
+    "not_started_lessons": "Upcoming Lessons",
+    "no_lessons": "No Lessons"
+  }
+}

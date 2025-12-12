@@ -1,0 +1,40 @@
+{
+  "name": "@luna/api",
+  "version": "0.0.0",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@luna/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@luna/eslint-config": "workspace:*",
+    "@luna/tsconfig": "workspace:*",
+    "@luna/utils": "workspace:*",
+    "@luna/stores": "workspace:*",
+    "form-data": "^4.0.4",
+    "tsup": "^8",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "axios": "^1.12.2",
+    "@types/js-cookie": "^3.0.6",
+    "js-cookie": "^3.0.5"
+  }
+}

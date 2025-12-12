@@ -1,0 +1,59 @@
+{
+  "name": "@luna/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./lib": {
+      "types": "./dist/lib/index.d.ts",
+      "import": "./dist/lib/index.js",
+      "require": "./dist/lib/index.cjs"
+    },
+    "./storage": {
+      "types": "./dist/storage/index.d.ts",
+      "import": "./dist/storage/index.js",
+      "require": "./dist/storage/index.cjs"
+    },
+    "./constants": {
+      "types": "./dist/constants/index.d.ts",
+      "import": "./dist/constants/index.js",
+      "require": "./dist/constants/index.cjs"
+    },
+    "./plugins": {
+      "types": "./dist/plugins/index.d.ts",
+      "import": "./dist/plugins/index.js",
+      "require": "./dist/plugins/index.cjs"
+    },
+    "./validation": {
+      "types": "./dist/validation/index.d.ts",
+      "import": "./dist/validation/index.js",
+      "require": "./dist/validation/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint ."
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@luna/eslint-config": "workspace:*",
+    "@luna/tsconfig": "workspace:*",
+    "@luna/types": "workspace:*",
+    "tsup": "^8",
+    "typescript": "^5",
+    "yup": "^1.7.1",
+    "date-fns": "^4.1.0"
+  },
+  "peerDependencies": {
+    "axios": "^1.12.2",
+    "clsx": "^2.1.1",
+    "firebase": "^11.0.2",
+    "next": "^15.5.3",
+    "tailwind-merge": "^3.3.1",
+    "react-hook-form": "^7.63.0"
+  },
+  "dependencies": {}
+}

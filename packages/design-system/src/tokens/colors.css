@@ -1,0 +1,23 @@
+@theme static {
+  /* Brand Colors */
+  --color-purple-light: #8e2de2;
+  --color-purple-dark: #4a00e0;
+
+  /* Grays */
+  --color-white: #ffffff;
+  --color-gray-5: #f5f5f7;
+  --color-gray-10: #e5e7eb;
+  --color-gray-20: #d1d5db;
+  --color-gray-30: #9ca3af;
+  --color-gray-40: #6b7280;
+  --color-gray-50: #4b5563;
+  --color-gray-60: #374151;
+  --color-gray-70: #1f2937;
+  --color-gray-80: #1f2937;
+  --color-gray-90: #1a1a1a;
+  --color-gray-100: #000000;
+
+  /* Typography */
+  --typo-font-type-1: Pretendard;
+  --typo-font-type-2: Minion Pro;
+}

@@ -1,0 +1,29 @@
+:root[data-theme="dark"] {
+  /* Surfaces */
+  --bg-primary: var(--color-gray-90);
+  --bg-secondary: var(--color-gray-80);
+  --bg-tertiary: var(--color-gray-70);
+
+  /* Text */
+  --text-primary: var(--color-white);
+  --text-secondary: var(--color-gray-30);
+  --text-tertiary: var(--color-gray-40);
+  --text-inverse: var(--color-gray-90);
+
+  /* Borders */
+  --border-primary: var(--color-gray-70);
+  --border-secondary: var(--color-gray-60);
+  --border-subtle: var(--color-gray-80);
+
+  /* Study Card */
+  --bg-study-gradient-from: var(--color-purple-light);
+  --bg-study-gradient-to: var(--color-purple-dark);
+
+  --bg-study-card-tablet-front: var(--color-gray-90);
+  --text-study-card-tablet-front: var(--color-white);
+  --border-study-card-tablet-front: var(--color-gray-80);
+
+  --bg-study-card-tablet-back: var(--color-gray-80);
+  --text-study-card-tablet-back: var(--color-white);
+  --border-study-card-tablet-back: var(--color-gray-60);
+}

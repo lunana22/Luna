@@ -1,0 +1,25 @@
+{
+  "sidebar": {
+    "dashboard": "알림판",
+    "lesson": "수업",
+    "homework": "숙제",
+    "chat": "채팅",
+    "sat-boot-camp-survey": "SAT 부트캠프 서베이",
+    "mybook": "나의 서재",
+    "vocab": "보캡",
+    "sat": "SAT",
+    "feedback": "피드백",
+    "cradit": "크레딧",
+    "reservation": "예약 내역",
+    "DailyReport": "미작성 데일리 리포트",
+    "schedule-register": "스케줄 등록",
+    "settlement-management": "정산 관리",
+    "errors": {
+      "unknown": "알 수 없는 오류가 발생했습니다. 다시 시도해 주세요."
+    },
+    "footer": {
+      "logout": "로그아웃",
+      "policy": "정책"
+    }
+  }
+}

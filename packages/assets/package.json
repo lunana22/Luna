@@ -1,0 +1,17 @@
+{
+  "name": "@luna/assets",
+  "version": "0.0.0",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    "./icons/*": "./src/icons/*",
+    "./logo/*": "./src/logo/*",
+    "./fonts/*": "./src/fonts/*",
+    "./*": "./*"
+  },
+  "scripts": {
+    "lint": "eslint . --no-error-on-unmatched-pattern"
+  },
+  "devDependencies": {}
+}

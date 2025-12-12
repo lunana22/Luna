@@ -1,0 +1,17 @@
+{
+  "name": "@luna/design-system",
+  "type": "module",
+  "version": "0.0.1",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    "./index.css": "./src/index.css"
+  },
+  "scripts": {
+    "build": "node -e \"console.log('noop')\""
+  },
+  "dependencies": {
+    "@luna/assets": "workspace:*"
+  }
+}
